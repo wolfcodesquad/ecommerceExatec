@@ -78,7 +78,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid #5a0b0e;
+    border-top: 10px solid #5a0b0e00;
   }
   
   #parallax-1 hr {
@@ -91,7 +91,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid #5a0b0e;
+    border-top: 10px solid #d19800;
   }
   
   #parallax-2 hr {
@@ -104,7 +104,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid #5a0b0e;
+    border-top: 10px solid #d19800;
   }
   
   #parallax-3 hr {
@@ -127,4 +127,8 @@
   
   input::placeholder {
     color: white !important;
+  }
+
+  .navbar {
+      background-color: #5a0b0e00;
   }
