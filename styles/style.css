@@ -1,3 +1,11 @@
+.bodyPrin {
+    background: url("../images/fondo.png");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .va {
     display: flex;
     align-items: center;
@@ -19,7 +27,7 @@
   
   .cta {
     height: 500px;
-    border-top: 10px solid turquoise;
+    border-top: 10px solid #d19800;
   }
   
   footer {
@@ -36,6 +44,7 @@
   }
   
   .title {
+    text-align: center;
     color: white;
     font-weight: 800;
     font-size: 4rem;
@@ -43,7 +52,12 @@
     text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
   }
   
+  .container {
+      text-align: center;
+  }
+
   .subtitle {
+    text-align: center;
     color: white;
     font-size: 1.2rem;
     text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
@@ -59,8 +73,7 @@
   }
   
   #parallax-1 {
-    background: url("../../imagesTec/Publicidad/Editados/1.png");
-    background-color: #000;
+    background: url("../images/publicidad/1.png");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -73,7 +86,7 @@
   }
   
   #parallax-2 {
-    background: url("../../imagesTec/Publicidad/Editados/2.png");
+    background: url("../images/publicidad/4.png");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -86,7 +99,7 @@
   }
   
   #parallax-3 {
-    background: url("../../imagesTec/Publicidad/Editados/3.png");
+    background: url("../images/publicidad/3.png");
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -115,4 +128,3 @@
   input::placeholder {
     color: white !important;
   }
-  
